@@ -1,0 +1,12 @@
+<div class="container">
+
+  <%= simple_form_for [@restaurant, @review] do |f| %>
+    <%= f.input :content %>
+    <%= f.select :rating, [1, 2, 3, 4, 5] %>
+    <%= f.submit "add a review", class: "btn btn-primary" %>
+  <% end %>
+
+  <%= link_to restaurant_path(@restaurant) do %>
+    <i class="fas fa-building">Go to restaurant</i>
+  <% end %>
+</div>
