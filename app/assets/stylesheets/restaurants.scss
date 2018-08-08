@@ -1,7 +1,15 @@
 // Place all the styles related to the restaurants controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-.h2:hover {
-  color: green;
+a:hover {
+  color: rgb(124, 24, 191);
   text-decoration: none;
+}
+ body {
+  background-color: black;
+  color: rgb(178, 178, 178);
+
+ }
+h1 {
+  color: white;
 }
